@@ -1,0 +1,26 @@
+{
+  "name": "braindump-mcp",
+  "version": "1.0.0",
+  "description": "Global brain dump for agents: notes, code entities and links in a Ladybug graph, over MCP and CLI",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "braindump": "./bin/cli.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.0",
+    "@ladybugdb/core": "^0.19.1",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "commander": "^15.0.0",
+    "minisearch": "^7.2.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  }
+}
