@@ -103,4 +103,4 @@ BRAINDUMP_MODELS=off npm test     # skip model downloads
 
 ## License
 
-ISC
+MIT
